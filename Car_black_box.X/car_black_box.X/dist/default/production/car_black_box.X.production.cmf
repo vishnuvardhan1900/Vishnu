@@ -1,0 +1,1819 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\car_black_box.X.production.o
+cinit CODE 0 11 11 31 2 1
+idloc IDLOC 5 2000 2000 4 2 1
+text1 CODE 0 E70 E70 190 2 1
+text2 CODE 0 1115 1115 23 2 1
+text3 CODE 0 730 730 87 2 1
+text4 CODE 0 1020 1020 12 2 1
+text5 CODE 0 170F 170F F1 2 1
+text6 CODE 0 CF0 CF0 180 2 1
+text7 CODE 0 1203 1203 2D 2 1
+text8 CODE 0 1183 1183 2A 2 1
+text9 CODE 0 1521 1521 58 2 1
+text10 CODE 0 13A8 13A8 3D 2 1
+text11 CODE 0 136E 136E 3A 2 1
+text12 CODE 0 12FC 12FC 38 2 1
+text13 CODE 0 1013 1013 D 2 1
+text14 CODE 0 1292 1292 34 2 1
+text15 CODE 0 163E 163E 68 2 1
+text16 CODE 0 1032 1032 13 2 1
+text17 CODE 0 1F9A 1F9A 6 2 1
+text18 CODE 0 1FE8 1FE8 B 2 1
+text19 CODE 0 9EC 9EC 6F 2 1
+text20 CODE 0 1FA0 1FA0 7 2 1
+text21 CODE 0 A5B A5B 138 2 1
+text22 CODE 0 115D 115D 26 2 1
+text23 CODE 0 1FDD 1FDD B 2 1
+text24 CODE 0 11D8 11D8 2B 2 1
+text25 CODE 0 106D 106D 15 2 1
+text26 CODE 0 14CA 14CA 57 2 1
+text27 CODE 0 1579 1579 62 2 1
+text28 CODE 0 16A6 16A6 69 2 1
+text29 CODE 0 1230 1230 2F 2 1
+text30 CODE 0 437 437 2F9 2 1
+text31 CODE 0 10D6 10D6 1E 2 1
+text32 CODE 0 15DB 15DB 63 2 1
+text33 CODE 0 11AD 11AD 2B 2 1
+text34 CODE 0 1FC9 1FC9 9 2 1
+text35 CODE 0 10F4 10F4 21 2 1
+text36 CODE 0 1138 1138 25 2 1
+text37 CODE 0 1334 1334 3A 2 1
+text38 CODE 0 13E5 13E5 46 2 1
+text39 CODE 0 993 993 59 2 1
+text40 CODE 0 B93 B93 15D 2 1
+text41 CODE 0 7B7 7B7 48 2 1
+text42 CODE 0 147A 147A 50 2 1
+text43 CODE 0 109B 109B 1D 2 1
+text44 CODE 0 10B8 10B8 1E 2 1
+text45 CODE 0 1FD2 1FD2 B 2 1
+text46 CODE 0 1FC0 1FC0 9 2 1
+text47 CODE 0 1FB7 1FB7 9 2 1
+text48 CODE 0 1FF3 1FF3 D 2 1
+text49 CODE 0 1058 1058 15 2 1
+text50 CODE 0 125F 125F 33 2 1
+text51 CODE 0 12C6 12C6 36 2 1
+text52 CODE 0 142B 142B 4F 2 1
+maintext CODE 0 42 42 3F5 2 1
+cstackCOMMON COMMON 1 70 70 9 1 1
+cstackBANK0 BANK0 1 20 20 22 1 1
+cstackBANK1 BANK1 1 DD DD D 1 1
+inittext CODE 0 1045 1045 13 2 1
+intentry CODE 0 4 4 A 2 1
+bssBANK0 BANK0 1 42 42 1E 1 1
+bssBANK1 BANK1 1 A0 A0 24 1 1
+stringtext STRCODE 0 800 800 191 2 256
+idataBANK0 CODE 0 1FAF 1FAF 8 2 1
+idataBANK1 CODE 0 1082 1082 19 2 1
+strings STRING 0 1000 1000 12 2 1
+dataBANK0 BANK0 1 60 60 8 1 1
+dataBANK1 BANK1 1 C4 C4 19 1 1
+clrtext CODE 0 1FA7 1FA7 8 2 1
+bssCOMMON COMMON 1 79 79 2 1 1
+config CONFIG 4 2007 2007 1 2 1
+$C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+idloc IDLOC 5 2000 2000 4 2 1
+reset_vec CODE 0 0 0 3 2 1
+end_init CODE 0 E E 3 2 1
+config CONFIG 4 2007 2007 1 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 68-6F 1
+RAM EA-EF 1
+RAM 110-16F 1
+RAM 190-1EF 1
+BANK0 68-6F 1
+BANK1 EA-EF 1
+BANK2 110-16F 1
+BANK3 190-1EF 1
+CONST 3-3 2
+CONST 7FF-7FF 2
+CONST 991-992 2
+CONST 1012-1012 2
+CONST 1800-1F99 2
+ENTRY 3-3 2
+ENTRY 7FF-7FF 2
+ENTRY 991-992 2
+ENTRY 1012-1012 2
+ENTRY 1800-1F99 2
+CODE 3-3 2
+CODE 7FF-7FF 2
+CODE 991-992 2
+CODE 1012-1012 2
+CODE 1800-1F99 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+COMMON 7B-7D 1
+EEDATA 2100-21FF 2
+STRCODE 3-3 2
+STRCODE 7FF-7FF 2
+STRCODE 991-992 2
+STRCODE 1012-1012 2
+STRCODE 1800-1F99 2
+STRING 3-3 2
+STRING 7FF-7FF 2
+STRING 991-992 2
+STRING 1012-1012 2
+STRING 1800-1F99 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\car_black_box.X.production.o
+11 cinit CODE >2400:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+11 cinit CODE >2403:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+11 cinit CODE >2563:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+12 cinit CODE >2564:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+13 cinit CODE >2565:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+14 cinit CODE >2566:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+15 cinit CODE >2567:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+16 cinit CODE >2568:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+17 cinit CODE >2569:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+18 cinit CODE >2570:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+19 cinit CODE >2571:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1A cinit CODE >2572:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1F cinit CODE >2576:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+20 cinit CODE >2577:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+21 cinit CODE >2578:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+22 cinit CODE >2579:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+23 cinit CODE >2580:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+24 cinit CODE >2581:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+25 cinit CODE >2582:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+26 cinit CODE >2583:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+27 cinit CODE >2584:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+2C cinit CODE >2603:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+2D cinit CODE >2604:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+2E cinit CODE >2605:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+2F cinit CODE >2606:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+34 cinit CODE >2609:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+35 cinit CODE >2610:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+36 cinit CODE >2611:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+37 cinit CODE >2612:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+3C cinit CODE >2615:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+3D cinit CODE >2616:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+3E cinit CODE >2622:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+3E cinit CODE >2624:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+3F cinit CODE >2625:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+4 intentry CODE >8:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+142B text52 CODE >8:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+142B text52 CODE >12:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+1431 text52 CODE >14:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+1433 text52 CODE >14:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+143A text52 CODE >14:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+1440 text52 CODE >16:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+1442 text52 CODE >18:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+1447 text52 CODE >18:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+144B text52 CODE >18:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+144F text52 CODE >20:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+1453 text52 CODE >20:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+1457 text52 CODE >22:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+145E text52 CODE >22:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+1462 text52 CODE >22:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+1466 text52 CODE >24:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+146A text52 CODE >24:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+146E text52 CODE >28:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+1471 text52 CODE >30:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\isr.c
+12C6 text51 CODE >6:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12C7 text51 CODE >8:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12D1 text51 CODE >10:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12D4 text51 CODE >11:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12D5 text51 CODE >12:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12DA text51 CODE >13:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12DD text51 CODE >15:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12E1 text51 CODE >15:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12E4 text51 CODE >15:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12E6 text51 CODE >15:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12E9 text51 CODE >16:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12EA text51 CODE >17:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12EF text51 CODE >18:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12F2 text51 CODE >20:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+12FB text51 CODE >21:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+125F text50 CODE >66:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+125F text50 CODE >68:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1268 text50 CODE >70:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1269 text50 CODE >72:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1279 text50 CODE >73:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+127D text50 CODE >73:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1281 text50 CODE >70:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+128D text50 CODE >70:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1291 text50 CODE >75:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1058 text49 CODE >60:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+105B text49 CODE >62:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1062 text49 CODE >63:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+106C text49 CODE >64:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1FF3 text48 CODE >20:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FF3 text48 CODE >23:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FFF text48 CODE >24:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FB7 text47 CODE >26:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FB7 text47 CODE >28:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FBC text47 CODE >29:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FBF text47 CODE >30:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FC0 text46 CODE >38:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FC0 text46 CODE >40:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FC5 text46 CODE >41:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FC8 text46 CODE >42:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FD2 text45 CODE >68:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FD3 text45 CODE >70:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FD8 text45 CODE >71:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FDC text45 CODE >73:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FDC text45 CODE >74:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+10B8 text44 CODE >35:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+10B9 text44 CODE >38:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+10BE text44 CODE >41:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+10C4 text44 CODE >44:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+10CA text44 CODE >47:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+10D0 text44 CODE >50:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+10D5 text44 CODE >51:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+109B text43 CODE >52:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+109C text43 CODE >54:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+109D text43 CODE >56:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+10A7 text43 CODE >57:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+10AB text43 CODE >58:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+10AF text43 CODE >54:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+10B7 text43 CODE >60:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+147A text42 CODE >3:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncmp.c
+147B text42 CODE >5:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncmp.c
+147E text42 CODE >5:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncmp.c
+1482 text42 CODE >5:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncmp.c
+148C text42 CODE >6:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncmp.c
+1497 text42 CODE >6:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncmp.c
+14B7 text42 CODE >6:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncmp.c
+14BB text42 CODE >7:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncmp.c
+14C7 text42 CODE >7:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncmp.c
+14C9 text42 CODE >8:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncmp.c
+7B7 text41 CODE >3:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncpy.c
+7BA text41 CODE >6:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncpy.c
+7BC text41 CODE >7:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncpy.c
+7BD text41 CODE >8:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncpy.c
+7C0 text41 CODE >8:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncpy.c
+7C3 text41 CODE >9:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncpy.c
+7C8 text41 CODE >9:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncpy.c
+7E1 text41 CODE >7:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncpy.c
+7E8 text41 CODE >13:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncpy.c
+7F0 text41 CODE >12:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncpy.c
+7F3 text41 CODE >12:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncpy.c
+7F7 text41 CODE >12:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncpy.c
+7FE text41 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strncpy.c
+B93 text40 CODE >465:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B96 text40 CODE >473:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B9B text40 CODE >475:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BA9 text40 CODE >476:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BAD text40 CODE >477:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BAE text40 CODE >478:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BB2 text40 CODE >482:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BB8 text40 CODE >483:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BBA text40 CODE >485:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BBF text40 CODE >486:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BC1 text40 CODE >488:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BC6 text40 CODE >488:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BCA text40 CODE >488:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BCE text40 CODE >489:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BDC text40 CODE >491:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BE3 text40 CODE >491:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BE7 text40 CODE >491:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BF2 text40 CODE >491:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BF6 text40 CODE >491:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+BFA text40 CODE >492:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C08 text40 CODE >500:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C0E text40 CODE >501:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C18 text40 CODE >502:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C1C text40 CODE >502:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C20 text40 CODE >503:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C24 text40 CODE >504:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C2B text40 CODE >505:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C37 text40 CODE >509:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C3D text40 CODE >510:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C47 text40 CODE >511:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C4B text40 CODE >511:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C4F text40 CODE >512:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C53 text40 CODE >513:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C5A text40 CODE >514:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C66 text40 CODE >516:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C6D text40 CODE >516:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C72 text40 CODE >516:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C75 text40 CODE >516:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C78 text40 CODE >518:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C81 text40 CODE >520:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C93 text40 CODE >523:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C96 text40 CODE >524:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+C9E text40 CODE >525:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CA2 text40 CODE >525:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CA6 text40 CODE >526:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CAD text40 CODE >527:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CBA text40 CODE >528:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CC7 text40 CODE >529:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CCB text40 CODE >530:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CCD text40 CODE >535:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CD4 text40 CODE >536:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CE1 text40 CODE >537:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CEF text40 CODE >544:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+993 text39 CODE >5:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+993 text39 CODE >12:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+994 text39 CODE >13:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+998 text39 CODE >14:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+99B text39 CODE >14:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+99D text39 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+99F text39 CODE >17:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9A3 text39 CODE >18:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9A6 text39 CODE >18:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9A8 text39 CODE >19:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9AE text39 CODE >20:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9B0 text39 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9B1 text39 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9B2 text39 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9B6 text39 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9B8 text39 CODE >23:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9BC text39 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9C0 text39 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9C2 text39 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9C6 text39 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9CA text39 CODE >27:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9CD text39 CODE >27:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9D0 text39 CODE >28:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9D1 text39 CODE >28:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9D5 text39 CODE >28:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9D7 text39 CODE >29:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9DD text39 CODE >31:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9E2 text39 CODE >32:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9E5 text39 CODE >32:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9E7 text39 CODE >33:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+9EB text39 CODE >34:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+13E5 text38 CODE >5:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+13E5 text38 CODE >13:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+13E9 text38 CODE >14:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+13EF text38 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+13F1 text38 CODE >16:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+13F2 text38 CODE >17:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+13F3 text38 CODE >17:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+13F7 text38 CODE >17:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+13F9 text38 CODE >18:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+13FD text38 CODE >16:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+1401 text38 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+1402 text38 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+1406 text38 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+1408 text38 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+140A text38 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+140E text38 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+1412 text38 CODE >23:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+1415 text38 CODE >23:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+1418 text38 CODE >24:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+1419 text38 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+141A text38 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+141E text38 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+1420 text38 CODE >27:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+1426 text38 CODE >29:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+142A text38 CODE >30:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+1334 text37 CODE >5:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+1334 text37 CODE >12:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+133A text37 CODE >13:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+133C text37 CODE >14:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+133D text37 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+133E text37 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+1342 text37 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+1344 text37 CODE >16:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+1348 text37 CODE >14:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+134C text37 CODE >19:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+134E text37 CODE >19:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+1352 text37 CODE >19:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+1356 text37 CODE >20:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+1359 text37 CODE >20:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+135C text37 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+135D text37 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+1361 text37 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+1363 text37 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+1369 text37 CODE >24:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+136D text37 CODE >25:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+1138 text36 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+1138 text36 CODE >43:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+113A text36 CODE >45:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+113E text36 CODE >46:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+1140 text36 CODE >46:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+1144 text36 CODE >47:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+1145 text36 CODE >47:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+1149 text36 CODE >47:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+114B text36 CODE >48:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+114C text36 CODE >48:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+1150 text36 CODE >48:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+1152 text36 CODE >49:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+1158 text36 CODE >52:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+115C text36 CODE >53:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+10F4 text35 CODE >44:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+10F5 text35 CODE >48:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+10FA text35 CODE >49:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+10FD text35 CODE >51:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1102 text35 CODE >52:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1106 text35 CODE >54:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+110B text35 CODE >56:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+110E text35 CODE >57:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+110F text35 CODE >58:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+110F text35 CODE >60:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1112 text35 CODE >61:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1112 text35 CODE >63:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1113 text35 CODE >65:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1114 text35 CODE >66:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FC9 text34 CODE >32:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FC9 text34 CODE >34:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FCE text34 CODE >35:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1FD1 text34 CODE >36:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+11AD text33 CODE >15:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+11AE text33 CODE >19:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+11B3 text33 CODE >20:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+11B9 text33 CODE >21:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+11BF text33 CODE >22:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+11C4 text33 CODE >23:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+11CA text33 CODE >24:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+11D1 text33 CODE >25:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+11D6 text33 CODE >27:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+11D7 text33 CODE >28:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+15DB text32 CODE >19:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+15DB text32 CODE >21:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+15E4 text32 CODE >22:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+15ED text32 CODE >23:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+15F6 text32 CODE >24:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+15F9 text32 CODE >24:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+15FC text32 CODE >24:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1604 text32 CODE >25:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+160C text32 CODE >27:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1611 text32 CODE >27:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1614 text32 CODE >27:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+161C text32 CODE >28:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1624 text32 CODE >30:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1629 text32 CODE >30:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+162C text32 CODE >30:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1634 text32 CODE >31:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+163C text32 CODE >32:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+163D text32 CODE >33:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+10D6 text31 CODE >30:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+10D7 text31 CODE >32:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+10DC text31 CODE >33:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+10E2 text31 CODE >34:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+10E8 text31 CODE >35:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+10EE text31 CODE >36:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+10F3 text31 CODE >37:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+437 text30 CODE >369:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+43A text30 CODE >377:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+440 text30 CODE >379:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+445 text30 CODE >380:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+467 text30 CODE >380:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+46B text30 CODE >381:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+48D text30 CODE >381:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+491 text30 CODE >382:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4B3 text30 CODE >382:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4B7 text30 CODE >383:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4C2 text30 CODE >384:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4C8 text30 CODE >385:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4C9 text30 CODE >386:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4CA text30 CODE >387:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4CC text30 CODE >388:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4CD text30 CODE >391:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4D2 text30 CODE >392:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4D4 text30 CODE >398:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4DD text30 CODE >398:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4DF text30 CODE >399:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4E0 text30 CODE >401:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4E8 text30 CODE >401:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4F7 text30 CODE >402:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4F8 text30 CODE >405:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+4FD text30 CODE >406:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+524 text30 CODE >406:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+527 text30 CODE >406:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+529 text30 CODE >406:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+52D text30 CODE >407:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+531 text30 CODE >408:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+539 text30 CODE >409:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+560 text30 CODE >409:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+563 text30 CODE >409:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+565 text30 CODE >409:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+569 text30 CODE >410:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+56D text30 CODE >411:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+575 text30 CODE >412:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+59C text30 CODE >412:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+59F text30 CODE >412:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+5A1 text30 CODE >412:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+5A5 text30 CODE >413:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+5A9 text30 CODE >414:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+5B1 text30 CODE >415:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+5B8 text30 CODE >416:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+5C5 text30 CODE >417:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+5D2 text30 CODE >418:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+5E1 text30 CODE >418:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+5E5 text30 CODE >418:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+5E9 text30 CODE >418:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+5F4 text30 CODE >418:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+5F8 text30 CODE >418:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+5FE text30 CODE >419:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+602 text30 CODE >420:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+604 text30 CODE >421:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+609 text30 CODE >421:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+60E text30 CODE >421:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+611 text30 CODE >421:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+614 text30 CODE >421:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+617 text30 CODE >423:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+61A text30 CODE >423:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+61C text30 CODE >423:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+620 text30 CODE >424:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+622 text30 CODE >425:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+625 text30 CODE >425:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+627 text30 CODE >425:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+62B text30 CODE >426:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+62D text30 CODE >427:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+630 text30 CODE >427:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+632 text30 CODE >427:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+636 text30 CODE >428:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+638 text30 CODE >430:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+642 text30 CODE >432:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+643 text30 CODE >433:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+64B text30 CODE >434:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+663 text30 CODE >435:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+67B text30 CODE >436:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+685 text30 CODE >437:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+69F text30 CODE >438:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+6B7 text30 CODE >439:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+6C1 text30 CODE >440:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+6DB text30 CODE >441:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+6F3 text30 CODE >444:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+6FB text30 CODE >449:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+706 text30 CODE >450:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+707 text30 CODE >452:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+712 text30 CODE >453:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+713 text30 CODE >455:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+71E text30 CODE >456:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+71F text30 CODE >457:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+721 text30 CODE >457:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+726 text30 CODE >457:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+729 text30 CODE >457:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+72C text30 CODE >457:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+72F text30 CODE >461:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1230 text29 CODE >301:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1231 text29 CODE >303:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+123E text29 CODE >304:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+124B text29 CODE >306:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1251 text29 CODE >308:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1257 text29 CODE >309:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+125B text29 CODE >310:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+125D text29 CODE >312:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+125E text29 CODE >313:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+16A6 text28 CODE >5:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16A6 text28 CODE >13:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16A9 text28 CODE >14:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16AD text28 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16B0 text28 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16B2 text28 CODE >16:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16B4 text28 CODE >18:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16B8 text28 CODE >19:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16BB text28 CODE >19:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16BD text28 CODE >20:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16C1 text28 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16C3 text28 CODE >23:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16C9 text28 CODE >24:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16CB text28 CODE >25:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16CC text28 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16CD text28 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16D1 text28 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16D3 text28 CODE >27:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16D7 text28 CODE >25:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16DB text28 CODE >30:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16DC text28 CODE >30:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16E0 text28 CODE >30:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16E2 text28 CODE >31:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16E4 text28 CODE >31:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16E8 text28 CODE >31:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16EC text28 CODE >32:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16EF text28 CODE >32:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16F2 text28 CODE >33:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16F3 text28 CODE >35:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16F4 text28 CODE >35:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16F8 text28 CODE >35:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+16FA text28 CODE >36:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+1700 text28 CODE >38:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+1705 text28 CODE >39:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+1708 text28 CODE >39:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+170A text28 CODE >40:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+170E text28 CODE >41:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+1579 text27 CODE >36:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1579 text27 CODE >39:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+157E text27 CODE >41:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+158A text27 CODE >42:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1596 text27 CODE >44:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+15A0 text27 CODE >45:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+15AC text27 CODE >46:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+15B8 text27 CODE >48:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+15C2 text27 CODE >49:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+15CE text27 CODE >50:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+15DA text27 CODE >52:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+14CA text26 CODE >53:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+14CD text26 CODE >55:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+14D8 text26 CODE >57:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+14E5 text26 CODE >59:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1500 text26 CODE >60:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+151B text26 CODE >63:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1520 text26 CODE >64:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+106D text25 CODE >4:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8.c
+106E text25 CODE >6:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8.c
+106F text25 CODE >43:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8.c
+1073 text25 CODE >44:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8.c
+1077 text25 CODE >45:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8.c
+1079 text25 CODE >46:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8.c
+107B text25 CODE >47:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8.c
+1080 text25 CODE >50:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8.c
+1081 text25 CODE >51:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8.c
+11D8 text24 CODE >8:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+11D9 text24 CODE >14:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+11DE text24 CODE >17:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+11E4 text24 CODE >19:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+11EA text24 CODE >21:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+11EF text24 CODE >23:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+11F5 text24 CODE >26:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+11FC text24 CODE >29:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+1201 text24 CODE >31:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+1202 text24 CODE >32:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\EEprom.c
+1FDD text23 CODE >24:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+1FDE text23 CODE >27:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+1FE2 text23 CODE >33:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+1FE6 text23 CODE >36:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+1FE7 text23 CODE >37:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+115D text22 CODE >39:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+115D text22 CODE >41:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+115E text22 CODE >43:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+116E text22 CODE >43:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+1172 text22 CODE >41:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+117E text22 CODE >41:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+1182 text22 CODE >45:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+A5B text21 CODE >315:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A5B text21 CODE >317:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A61 text21 CODE >319:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A62 text21 CODE >320:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A62 text21 CODE >323:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A63 text21 CODE >323:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A6A text21 CODE >325:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A73 text21 CODE >326:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A74 text21 CODE >330:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A7D text21 CODE >331:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A83 text21 CODE >332:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A89 text21 CODE >333:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A8F text21 CODE >335:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A90 text21 CODE >337:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A94 text21 CODE >337:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+A98 text21 CODE >338:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+AA8 text21 CODE >338:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+AB7 text21 CODE >339:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+ABF text21 CODE >339:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+ACE text21 CODE >341:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+AD0 text21 CODE >343:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+ADF text21 CODE >344:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+AEA text21 CODE >345:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+AEE text21 CODE >345:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+AF7 text21 CODE >345:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+AFB text21 CODE >345:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+AFF text21 CODE >347:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B08 text21 CODE >348:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B0E text21 CODE >349:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B16 text21 CODE >350:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B1E text21 CODE >351:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B24 text21 CODE >352:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B2C text21 CODE >353:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B34 text21 CODE >354:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B3A text21 CODE >355:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B42 text21 CODE >356:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B4A text21 CODE >357:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B50 text21 CODE >358:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B58 text21 CODE >359:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B60 text21 CODE >360:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B66 text21 CODE >361:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B6E text21 CODE >362:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B76 text21 CODE >363:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B7C text21 CODE >364:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B82 text21 CODE >335:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B8A text21 CODE >335:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B8E text21 CODE >335:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+B92 text21 CODE >367:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1FA0 text20 CODE >5:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\adc.c
+1FA0 text20 CODE >8:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\adc.c
+1FA3 text20 CODE >11:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\adc.c
+1FA6 text20 CODE >12:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\adc.c
+9EC text19 CODE >23:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+9EC text19 CODE >26:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+9F4 text19 CODE >29:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+9FB text19 CODE >30:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A04 text19 CODE >31:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A0B text19 CODE >32:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A10 text19 CODE >33:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A17 text19 CODE >34:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A1A text19 CODE >36:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A21 text19 CODE >37:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A26 text19 CODE >38:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A2D text19 CODE >39:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A32 text19 CODE >40:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A39 text19 CODE >41:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A42 text19 CODE >42:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A49 text19 CODE >43:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A4E text19 CODE >44:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A55 text19 CODE >45:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+A5A text19 CODE >46:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1FE8 text18 CODE >48:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1FE8 text18 CODE >51:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1FEB text18 CODE >54:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1FEC text18 CODE >55:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1FED text18 CODE >57:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1FF2 text18 CODE >58:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\clcd.c
+1F9A text17 CODE >8:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+1F9A text17 CODE >11:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+1F9F text17 CODE >12:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+1032 text16 CODE >6:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+1032 text16 CODE >10:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+1039 text16 CODE >11:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+103C text16 CODE >12:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+1044 text16 CODE >13:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\d1307.c
+163E text15 CODE >5:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+163E text15 CODE >13:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1646 text15 CODE >14:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+164C text15 CODE >14:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1650 text15 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1652 text15 CODE >16:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1653 text15 CODE >17:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1655 text15 CODE >17:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+165C text15 CODE >18:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1660 text15 CODE >16:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1664 text15 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1666 text15 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+166D text15 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+166F text15 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1673 text15 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1677 text15 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+167B text15 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+167F text15 CODE >23:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1682 text15 CODE >23:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1686 text15 CODE >23:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+168A text15 CODE >23:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+168D text15 CODE >24:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+168E text15 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+168F text15 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1695 text15 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1697 text15 CODE >27:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+169D text15 CODE >29:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+16A5 text15 CODE >30:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+1292 text14 CODE >8:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1292 text14 CODE >11:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1295 text14 CODE >14:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+129E text14 CODE >14:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+12A4 text14 CODE >14:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+12C2 text14 CODE >17:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+12C5 text14 CODE >18:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\i2c.c
+1013 text13 CODE >7:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\timer2.c
+1013 text13 CODE >10:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\timer2.c
+1016 text13 CODE >11:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\timer2.c
+1017 text13 CODE >14:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\timer2.c
+101B text13 CODE >17:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\timer2.c
+101C text13 CODE >20:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\timer2.c
+101F text13 CODE >21:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\timer2.c
+12FC text12 CODE >4:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+12FC text12 CODE >7:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+12FF text12 CODE >10:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+1302 text12 CODE >13:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+1303 text12 CODE >16:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+1306 text12 CODE >19:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+130F text12 CODE >19:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+1315 text12 CODE >19:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+1333 text12 CODE >20:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\uart.c
+136E text11 CODE >11:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+136E text11 CODE >12:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1373 text11 CODE >13:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1382 text11 CODE >14:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1387 text11 CODE >15:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+138C text11 CODE >16:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1391 text11 CODE >17:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1396 text11 CODE >18:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+13A5 text11 CODE >20:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+13A6 text11 CODE >22:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+13A7 text11 CODE >24:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+13A8 text10 CODE >66:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+13A8 text10 CODE >71:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+13AC text10 CODE >71:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+13B7 text10 CODE >73:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+13B9 text10 CODE >74:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+13BB text10 CODE >77:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+13C5 text10 CODE >78:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+13CD text10 CODE >80:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+13D4 text10 CODE >80:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+13D8 text10 CODE >80:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+13DC text10 CODE >81:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+13E0 text10 CODE >81:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+13E4 text10 CODE >82:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1521 text9 CODE >84:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1521 text9 CODE >87:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1526 text9 CODE >88:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1534 text9 CODE >89:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1544 text9 CODE >90:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+155B text9 CODE >91:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1572 text9 CODE >92:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1573 text9 CODE >94:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1578 text9 CODE >95:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1183 text8 CODE >97:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1186 text8 CODE >100:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1188 text8 CODE >102:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1197 text8 CODE >103:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+119B text8 CODE >103:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+11A4 text8 CODE >103:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+11A8 text8 CODE >103:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+11AC text8 CODE >104:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1203 text7 CODE >3:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strcmp.c
+1204 text7 CODE >5:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strcmp.c
+1216 text7 CODE >5:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strcmp.c
+1221 text7 CODE >6:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strcmp.c
+122D text7 CODE >6:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strcmp.c
+122F text7 CODE >7:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strcmp.c
+CF0 text6 CODE >106:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CF3 text6 CODE >112:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CF8 text6 CODE >114:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CFA text6 CODE >115:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CFC text6 CODE >116:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CFD text6 CODE >117:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+CFF text6 CODE >118:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D02 text6 CODE >119:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D03 text6 CODE >120:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D04 text6 CODE >121:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D05 text6 CODE >122:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D06 text6 CODE >123:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D0C text6 CODE >126:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D12 text6 CODE >128:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D14 text6 CODE >130:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D1B text6 CODE >132:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D25 text6 CODE >132:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D29 text6 CODE >134:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D2D text6 CODE >135:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D33 text6 CODE >136:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D3C text6 CODE >137:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D42 text6 CODE >138:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D43 text6 CODE >140:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D4B text6 CODE >140:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D4F text6 CODE >142:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D53 text6 CODE >143:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D59 text6 CODE >144:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D63 text6 CODE >148:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D69 text6 CODE >150:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D6F text6 CODE >151:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D7D text6 CODE >153:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D7F text6 CODE >157:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D87 text6 CODE >160:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D8E text6 CODE >161:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D95 text6 CODE >162:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+D9F text6 CODE >163:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+DAC text6 CODE >164:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+DB9 text6 CODE >165:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+DBF text6 CODE >166:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+DC0 text6 CODE >168:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+DD6 text6 CODE >169:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+DEE text6 CODE >166:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+DF6 text6 CODE >171:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+DF8 text6 CODE >173:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+DF9 text6 CODE >177:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E00 text6 CODE >178:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E0A text6 CODE >179:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E11 text6 CODE >180:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E18 text6 CODE >181:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E25 text6 CODE >182:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E30 text6 CODE >183:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E3D text6 CODE >184:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E43 text6 CODE >185:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E49 text6 CODE >187:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E50 text6 CODE >188:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E5A text6 CODE >189:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E67 text6 CODE >191:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E6A text6 CODE >192:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E6E text6 CODE >195:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E6F text6 CODE >196:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+170F text5 CODE >199:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1712 text5 CODE >203:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1718 text5 CODE >205:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+171A text5 CODE >206:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+171E text5 CODE >209:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1729 text5 CODE >209:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+172D text5 CODE >209:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1731 text5 CODE >211:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1735 text5 CODE >211:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1739 text5 CODE >212:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+173E text5 CODE >212:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1742 text5 CODE >212:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1746 text5 CODE >213:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+174A text5 CODE >213:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+174E text5 CODE >215:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1755 text5 CODE >216:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1756 text5 CODE >218:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1763 text5 CODE >218:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1767 text5 CODE >218:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+176B text5 CODE >220:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+176F text5 CODE >220:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1773 text5 CODE >221:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1778 text5 CODE >221:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+177C text5 CODE >221:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1780 text5 CODE >222:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1784 text5 CODE >222:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1788 text5 CODE >223:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+178F text5 CODE >226:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1797 text5 CODE >228:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+179F text5 CODE >229:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+17B4 text5 CODE >230:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+17C9 text5 CODE >231:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+17CA text5 CODE >234:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+17D2 text5 CODE >235:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+17E7 text5 CODE >236:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+17FC text5 CODE >239:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+17FF text5 CODE >241:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+1020 text4 CODE >14:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\adc.c
+1020 text4 CODE >19:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\adc.c
+1023 text4 CODE >21:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\adc.c
+1027 text4 CODE >23:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\adc.c
+102D text4 CODE >27:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\adc.c
+1031 text4 CODE >28:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\adc.c
+730 text3 CODE >14:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+730 text3 CODE >19:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+735 text3 CODE >20:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+740 text3 CODE >22:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+742 text3 CODE >23:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+744 text3 CODE >24:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+746 text3 CODE >25:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+747 text3 CODE >26:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+752 text3 CODE >28:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+753 text3 CODE >29:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+758 text3 CODE >29:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+75C text3 CODE >29:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+760 text3 CODE >30:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+762 text3 CODE >32:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+76C text3 CODE >32:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+770 text3 CODE >32:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+774 text3 CODE >33:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+778 text3 CODE >33:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+77D text3 CODE >34:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+791 text3 CODE >36:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+793 text3 CODE >36:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+797 text3 CODE >37:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+799 text3 CODE >39:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+7AD text3 CODE >41:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+7AF text3 CODE >41:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+7B3 text3 CODE >42:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+7B5 text3 CODE >44:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+7B6 text3 CODE >45:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\digital_keypad.c
+1115 text2 CODE >3:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strcpy.c
+1116 text2 CODE >5:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strcpy.c
+1118 text2 CODE >6:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strcpy.c
+111D text2 CODE >6:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strcpy.c
+1137 text2 CODE >8:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strcpy.c
+E70 text1 CODE >246:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E73 text1 CODE >250:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E74 text1 CODE >253:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E75 text1 CODE >253:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E7C text1 CODE >255:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E87 text1 CODE >256:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E88 text1 CODE >259:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E8E text1 CODE >260:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+E90 text1 CODE >261:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+EA0 text1 CODE >261:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+EAF text1 CODE >263:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+EBB text1 CODE >263:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+EBF text1 CODE >263:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+EC3 text1 CODE >265:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+EC7 text1 CODE >265:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+ECB text1 CODE >266:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+ED6 text1 CODE >267:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+ED7 text1 CODE >268:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+EE4 text1 CODE >268:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+EE8 text1 CODE >268:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+EEC text1 CODE >270:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+EF0 text1 CODE >270:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+EF4 text1 CODE >271:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+EFF text1 CODE >274:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F09 text1 CODE >274:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F18 text1 CODE >276:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F1A text1 CODE >278:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F29 text1 CODE >279:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F34 text1 CODE >280:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F38 text1 CODE >280:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F41 text1 CODE >280:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F45 text1 CODE >280:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F49 text1 CODE >282:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F54 text1 CODE >283:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F5E text1 CODE >284:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F68 text1 CODE >285:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F72 text1 CODE >286:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F7C text1 CODE >287:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F86 text1 CODE >288:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F90 text1 CODE >289:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+F9A text1 CODE >290:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+FA4 text1 CODE >291:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+FAE text1 CODE >292:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+FB8 text1 CODE >293:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+FC2 text1 CODE >294:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+FCC text1 CODE >295:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+FDB text1 CODE >295:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+FDF text1 CODE >295:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+FE3 text1 CODE >295:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+FEE text1 CODE >295:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+FF2 text1 CODE >295:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+FF8 text1 CODE >296:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+FFF text1 CODE >298:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\display.c
+42 maintext CODE >26:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+42 maintext CODE >27:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+4A maintext CODE >29:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+4A maintext CODE >30:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+4C maintext CODE >31:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+4D maintext CODE >33:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+4E maintext CODE >34:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+50 maintext CODE >35:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+55 maintext CODE >36:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+61 maintext CODE >39:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+69 maintext CODE >40:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+71 maintext CODE >41:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+79 maintext CODE >42:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+81 maintext CODE >43:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+88 maintext CODE >47:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+A4 maintext CODE >48:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+A6 maintext CODE >48:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+AA maintext CODE >50:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+AC maintext CODE >53:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+B4 maintext CODE >55:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+BA maintext CODE >55:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+BF maintext CODE >55:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+C6 maintext CODE >57:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+CC maintext CODE >59:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+D6 maintext CODE >60:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+E7 maintext CODE >61:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+E8 maintext CODE >63:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+F0 maintext CODE >63:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+F4 maintext CODE >65:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+108 maintext CODE >66:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+119 maintext CODE >67:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+11F maintext CODE >68:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+120 maintext CODE >70:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+12B maintext CODE >72:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+12D maintext CODE >73:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+141 maintext CODE >74:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+152 maintext CODE >75:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+153 maintext CODE >77:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+164 maintext CODE >79:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+16B maintext CODE >80:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+175 maintext CODE >81:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+182 maintext CODE >82:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+18C maintext CODE >83:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+193 maintext CODE >84:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+19A maintext CODE >85:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+19E maintext CODE >86:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1A0 maintext CODE >87:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1A3 maintext CODE >88:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1A4 maintext CODE >90:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1B1 maintext CODE >97:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1B8 maintext CODE >98:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1C5 maintext CODE >99:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1C9 maintext CODE >100:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1CB maintext CODE >101:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1CC maintext CODE >103:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1D3 maintext CODE >104:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1D7 maintext CODE >105:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1D9 maintext CODE >106:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1DA maintext CODE >108:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1E9 maintext CODE >109:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1EE maintext CODE >110:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1F5 maintext CODE >111:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1F9 maintext CODE >112:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1FB maintext CODE >113:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1FC maintext CODE >115:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+20B maintext CODE >116:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+212 maintext CODE >117:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+216 maintext CODE >118:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+218 maintext CODE >119:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+219 maintext CODE >121:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+228 maintext CODE >122:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+22F maintext CODE >123:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+234 maintext CODE >129:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+23B maintext CODE >129:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+240 maintext CODE >129:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+243 maintext CODE >129:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+246 maintext CODE >129:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+249 maintext CODE >129:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+24C maintext CODE >129:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+24F maintext CODE >132:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+261 maintext CODE >134:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+263 maintext CODE >135:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+26A maintext CODE >136:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+26B maintext CODE >137:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+277 maintext CODE >139:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+279 maintext CODE >140:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+281 maintext CODE >141:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+282 maintext CODE >146:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+289 maintext CODE >147:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+290 maintext CODE >148:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+29C maintext CODE >149:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+29D maintext CODE >155:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2A1 maintext CODE >156:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2A3 maintext CODE >157:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2AA maintext CODE >158:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2B4 maintext CODE >159:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2BB maintext CODE >160:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2C2 maintext CODE >161:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2C3 maintext CODE >163:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2C3 maintext CODE >164:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2C7 maintext CODE >165:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2CA maintext CODE >166:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2D2 maintext CODE >170:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2E6 maintext CODE >170:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2EB maintext CODE >170:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2EE maintext CODE >170:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+2F1 maintext CODE >174:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+302 maintext CODE >175:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+303 maintext CODE >179:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+311 maintext CODE >180:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+312 maintext CODE >184:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+31B maintext CODE >184:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+31F maintext CODE >185:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+325 maintext CODE >187:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+32D maintext CODE >188:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+33E maintext CODE >190:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+345 maintext CODE >190:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+349 maintext CODE >190:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+351 maintext CODE >190:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+35B maintext CODE >192:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+35D maintext CODE >193:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+35F maintext CODE >194:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+366 maintext CODE >195:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+367 maintext CODE >201:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+376 maintext CODE >201:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+37A maintext CODE >202:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+380 maintext CODE >204:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+387 maintext CODE >204:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+38B maintext CODE >204:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+393 maintext CODE >204:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+39D maintext CODE >206:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+39F maintext CODE >207:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3A1 maintext CODE >208:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3A8 maintext CODE >209:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3A9 maintext CODE >217:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3AF maintext CODE >219:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3B6 maintext CODE >220:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3B7 maintext CODE >223:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3BB maintext CODE >224:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3BD maintext CODE >225:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3C4 maintext CODE >226:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3C5 maintext CODE >227:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3D9 maintext CODE >227:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3DE maintext CODE >227:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3E1 maintext CODE >227:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3E4 maintext CODE >229:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3EB maintext CODE >229:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3EF maintext CODE >229:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+3F7 maintext CODE >229:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+401 maintext CODE >231:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+403 maintext CODE >232:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+405 maintext CODE >233:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+40C maintext CODE >234:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+40D maintext CODE >237:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+416 maintext CODE >237:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+41B maintext CODE >237:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+41E maintext CODE >237:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+421 maintext CODE >237:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+424 maintext CODE >237:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+427 maintext CODE >237:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+42A maintext CODE >237:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+42D maintext CODE >237:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+430 maintext CODE >238:E:\EMERTXE\Micro Controller\Mc project\Car_black__box.X\Car_black_box.X\car_black_box.X\main.c
+1FA7 clrtext CODE >2590:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1FA7 clrtext CODE >2591:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1FA8 clrtext CODE >2592:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1FA8 clrtext CODE >2593:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1FA9 clrtext CODE >2594:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1FAA clrtext CODE >2595:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1FAB clrtext CODE >2596:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1FAC clrtext CODE >2597:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1FAD clrtext CODE >2598:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1FAE clrtext CODE >2599:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1045 inittext CODE >2537:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1045 inittext CODE >2538:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1046 inittext CODE >2539:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1047 inittext CODE >2540:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1048 inittext CODE >2541:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1049 inittext CODE >2548:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1049 inittext CODE >2549:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+104E inittext CODE >2550:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+104F inittext CODE >2551:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1050 inittext CODE >2552:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1051 inittext CODE >2553:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1052 inittext CODE >2554:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1053 inittext CODE >2555:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1054 inittext CODE >2556:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1055 inittext CODE >2557:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1056 inittext CODE >2558:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+1057 inittext CODE >2559:C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_1.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+___awdiv@counter 20 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+___lwmod@counter 77 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+change_time@i 2E 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__LdataBANK1 0 0 ABS 0 dataBANK1 -
+__Hspace_0 2000 0 ABS 0 - -
+__Hspace_1 EA 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 400F 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+__HidataBANK1 0 0 ABS 0 idataBANK1 -
+__end_of_get_password 235A 0 CODE 0 text8 dist/default/production\car_black_box.X.production.o
+strncpy@cp 21 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+_i2c_read 21E8 0 CODE 0 text35 dist/default/production\car_black_box.X.production.o
+_i2c_stop 3F80 0 CODE 0 text46 dist/default/production\car_black_box.X.production.o
+_GO FA 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+__L__absolute__ 0 0 ABS 0 __absolute__ -
+_overflow 5F 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+change_time@key 2D 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__Lstringtext 0 0 ABS 0 stringtext -
+main@i DD 0 BANK1 1 cstackBANK1 dist/default/production\car_black_box.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+_ADFM 4FF 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_ADON F8 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_BRGH 4C2 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_CREN C4 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_PEIE 5E 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_RCEN 48B 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_RSEN 489 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_R_nW 4A2 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_SPEN C7 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_TXEN 4C5 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_TXIF 64 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+view_log@reset_shift 29 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+_gear C4 0 BANK1 1 dataBANK1 dist/default/production\car_black_box.X.production.o
+_main 84 0 CODE 0 maintext dist/default/production\car_black_box.X.production.o
+_menu D0 0 BANK1 1 dataBANK1 dist/default/production\car_black_box.X.production.o
+_time B8 0 BANK1 1 bssBANK1 dist/default/production\car_black_box.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+___stack_hi 0 0 STACK 2 stack C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+___stack_lo 0 0 STACK 2 stack C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+__end_of_i2c_wait_for_idle 4000 0 CODE 0 text48 dist/default/production\car_black_box.X.production.o
+start 1C 0 CODE 0 init C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+main@wait_time E4 0 BANK1 1 cstackBANK1 dist/default/production\car_black_box.X.production.o
+__end_of_i2c_read 222A 0 CODE 0 text35 dist/default/production\car_black_box.X.production.o
+__end_of_i2c_stop 3F92 0 CODE 0 text46 dist/default/production\car_black_box.X.production.o
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__end_of_ext_eeprom_24C02_str_write 2170 0 CODE 0 text43 dist/default/production\car_black_box.X.production.o
+?___wmul 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+change_password@key 2C 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__LidataBANK1 0 0 ABS 0 idataBANK1 -
+__end_of_log_event 27CA 0 CODE 0 text10 dist/default/production\car_black_box.X.production.o
+__end_of_init_digital_keypad 3F40 0 CODE 0 text17 dist/default/production\car_black_box.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+__end_of_ext_eeprom_24C02_byte_write 21AC 0 CODE 0 text44 dist/default/production\car_black_box.X.production.o
+___awmod@sign 78 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+ext_eeprom_24C02_byte_write@addr 75 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+ext_eeprom_24C02_byte_write@data 74 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+read_digital_keypad@once 7A 0 COMMON 1 bssCOMMON dist/default/production\car_black_box.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+___bmul@multiplicand 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+_init_adc 3F40 0 CODE 0 text20 dist/default/production\car_black_box.X.production.o
+_init_i2c 2524 0 CODE 0 text14 dist/default/production\car_black_box.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+_log_event 2750 0 CODE 0 text10 dist/default/production\car_black_box.X.production.o
+__end_of_i2c_rep_start 3FA4 0 CODE 0 text34 dist/default/production\car_black_box.X.production.o
+login@npassword BF 0 BANK1 1 bssBANK1 dist/default/production\car_black_box.X.production.o
+___awdiv@sign 21 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+__end_of_init_adc 3F4E 0 CODE 0 text20 dist/default/production\car_black_box.X.production.o
+__end_of_init_i2c 258C 0 CODE 0 text14 dist/default/production\car_black_box.X.production.o
+_write_ds1307 21AC 0 CODE 0 text31 dist/default/production\car_black_box.X.production.o
+___wmul@multiplicand 75 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+_ADRESH 1E 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_ADRESL 9E 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+___awdiv@dividend 75 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+change_time@blink_pos 4F 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+log_car_event@event 24 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+log_car_event@speed 26 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__end_of___bmul 2104 0 CODE 0 text25 dist/default/production\car_black_box.X.production.o
+__end_of___wmul 22BA 0 CODE 0 text36 dist/default/production\car_black_box.X.production.o
+main@key E9 0 BANK1 1 cstackBANK1 dist/default/production\car_black_box.X.production.o
+login@attempt_rem 5D 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+__end_of_i2c_start 3F80 0 CODE 0 text47 dist/default/production\car_black_box.X.production.o
+__end_of_i2c_write 3FBA 0 CODE 0 text45 dist/default/production\car_black_box.X.production.o
+___bmul@multiplier 75 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+_i2c_wait_for_idle 3FE6 0 CODE 0 text48 dist/default/production\car_black_box.X.production.o
+___awdiv@divisor 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+___lwmod@divisor 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__end_of___awdiv 2E1E 0 CODE 0 text28 dist/default/production\car_black_box.X.production.o
+__end_of___awmod 13D8 0 CODE 0 text39 dist/default/production\car_black_box.X.production.o
+__end_of___lldiv 2D4C 0 CODE 0 text15 dist/default/production\car_black_box.X.production.o
+__end_of___lwdiv 2856 0 CODE 0 text38 dist/default/production\car_black_box.X.production.o
+__end_of___lwmod 26DC 0 CODE 0 text37 dist/default/production\car_black_box.X.production.o
+change_time@reset_time 29 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+?_strcmp 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+___stackhi 0 0 ABS 0 - C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+___stacklo 0 0 ABS 0 - C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+_init_config 26DC 0 CODE 0 text11 dist/default/production\car_black_box.X.production.o
+_login_menu 2E1E 0 CODE 0 text5 dist/default/production\car_black_box.X.production.o
+_init_ds1307 2064 0 CODE 0 text16 dist/default/production\car_black_box.X.production.o
+___lwdiv@quotient 25 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+_i2c_start 3F6E 0 CODE 0 text47 dist/default/production\car_black_box.X.production.o
+_init_display_controller 13D8 0 CODE 0 text19 dist/default/production\car_black_box.X.production.o
+_i2c_write 3FA4 0 CODE 0 text45 dist/default/production\car_black_box.X.production.o
+_change_time 86E 0 CODE 0 text30 dist/default/production\car_black_box.X.production.o
+___lwmod@dividend 75 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+___lldiv@counter 78 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__end_of_init_display_controller 14B6 0 CODE 0 text19 dist/default/production\car_black_box.X.production.o
+start_initialization 22 0 CODE 0 cinit dist/default/production\car_black_box.X.production.o
+main@menu_pos DF 0 BANK1 1 cstackBANK1 dist/default/production\car_black_box.X.production.o
+read_digital_keypad@pre_key 79 0 COMMON 1 bssCOMMON dist/default/production\car_black_box.X.production.o
+_ACKSTAT 48E 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+___lldiv@dividend 24 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__end_of_write_ds1307 21E8 0 CODE 0 text31 dist/default/production\car_black_box.X.production.o
+clear_ram0 3F4E 0 CODE 0 clrtext dist/default/production\car_black_box.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__pcstackBANK1 DD 0 BANK1 1 cstackBANK1 dist/default/production\car_black_box.X.production.o
+_SSPADD 93 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_SSPBUF 13 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+download_log@i 31 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+_TMR2IE 461 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_TMR2IF 61 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_TMR2ON 92 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_TRISE1 449 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_TRISE2 44A 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+clear_log@reset_memory 77 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+_read_digital_keypad E60 0 CODE 0 text3 dist/default/production\car_black_box.X.production.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hcinit 84 0 CODE 0 cinit -
+__end_of_strcmp 2460 0 CODE 0 text7 dist/default/production\car_black_box.X.production.o
+__end_of_strcpy 2270 0 CODE 0 text2 dist/default/production\car_black_box.X.production.o
+__Hidloc 4008 0 IDLOC 5 idloc -
+change_password@reset_pwd 29 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__Hstack 0 0 STACK 2 stack -
+__stringbase 2024 0 STRING 0 strings dist/default/production\car_black_box.X.production.o
+___lwdiv@counter 24 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__end_of_login_menu 3000 0 CODE 0 text5 dist/default/production\car_black_box.X.production.o
+ext_eeprom_24C02_str_write@addr 77 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+ext_eeprom_24C02_str_write@data 76 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__Hmaintext 0 0 ABS 0 maintext -
+change_time@t_done 5A 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+_read_ds1307 235A 0 CODE 0 text33 dist/default/production\car_black_box.X.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 4010 0 CONFIG 4 config -
+_init_timer2 2026 0 CODE 0 text13 dist/default/production\car_black_box.X.production.o
+login@spassword 2C 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+read_ds1307@addr 75 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+read_ds1307@data 76 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lcinit 22 0 CODE 0 cinit -
+read_adc@adc_reg_val 75 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__Lidloc 0 0 IDLOC 5 idloc -
+_display_time 2AF2 0 CODE 0 text27 dist/default/production\car_black_box.X.production.o
+_clcd_print 24BE 0 CODE 0 text50 dist/default/production\car_black_box.X.production.o
+_clcd_putch 20B0 0 CODE 0 text49 dist/default/production\car_black_box.X.production.o
+__Lstack 0 0 STACK 2 stack -
+_clcd_write 258C 0 CODE 0 text51 dist/default/production\car_black_box.X.production.o
+_ext_eeprom_24C02_str_write 2136 0 CODE 0 text43 dist/default/production\car_black_box.X.production.o
+__Linittext 0 0 ABS 0 inittext -
+change_time@blink 5B 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+__end_of_strncmp 2994 0 CODE 0 text42 dist/default/production\car_black_box.X.production.o
+__end_of_strncpy FFE 0 CODE 0 text41 dist/default/production\car_black_box.X.production.o
+change_time@dummy 32 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hheap 0 0 HEAP 7 heap -
+__Hinit 1C 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Lheap 0 0 HEAP 7 heap -
+__Linit 1C 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Ltext 0 0 ABS 0 text -
+___bmul 20DA 0 CODE 0 text25 dist/default/production\car_black_box.X.production.o
+___wmul 2270 0 CODE 0 text36 dist/default/production\car_black_box.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_GIE 5F 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_PEN 48A 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_PR2 92 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_RE1 49 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_RE2 4A 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_SEN 488 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+__S0 2000 0 ABS 0 - -
+__S1 EA 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_isr 2856 0 CODE 0 text52 dist/default/production\car_black_box.X.production.o
+_log A4 0 BANK1 1 bssBANK1 dist/default/production\car_black_box.X.production.o
+_pos 66 0 BANK0 1 dataBANK0 dist/default/production\car_black_box.X.production.o
+_sec 57 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+login@key 31 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+_access 64 0 BANK0 1 dataBANK0 dist/default/production\car_black_box.X.production.o
+__end_of_ext_eeprom_24C02_read 2406 0 CODE 0 text24 dist/default/production\car_black_box.X.production.o
+saved_w 7E 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+clcd_write@byte 76 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+clcd_write@mode 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+login@i 5E 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+download_log@next 2F 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+download_log@rlog 21 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+download_log@rpos 2D 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+view_log@add 36 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+view_log@key 37 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__end_of_isr 28F4 0 CODE 0 text52 dist/default/production\car_black_box.X.production.o
+_ext_eeprom_24C02_read 23B0 0 CODE 0 text24 dist/default/production\car_black_box.X.production.o
+_ext_eeprom_24C02_byte_write 2170 0 CODE 0 text44 dist/default/production\car_black_box.X.production.o
+log_event@add 78 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__Lintentry 8 0 CODE 0 intentry -
+___lldiv@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__stringtab 2000 0 STRING 0 strings dist/default/production\car_black_box.X.production.o
+change_time@wait 5C 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+strcmp@l 77 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+strcmp@r 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+strcpy@d 77 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+_return_time 55 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+__end_of_change_password 19E0 0 CODE 0 text40 dist/default/production\car_black_box.X.production.o
+init_uart@baud 28 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__pdataBANK0 60 0 BANK0 1 dataBANK0 dist/default/production\car_black_box.X.production.o
+__pdataBANK1 C4 0 BANK1 1 dataBANK1 dist/default/production\car_black_box.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__end_of_clcd_print 2524 0 CODE 0 text50 dist/default/production\car_black_box.X.production.o
+__end_of_clcd_putch 20DA 0 CODE 0 text49 dist/default/production\car_black_box.X.production.o
+login_menu@reset_flag 29 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__end_of_clcd_write 25F8 0 CODE 0 text51 dist/default/production\car_black_box.X.production.o
+___awmod@counter 77 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+_view_log 1CE0 0 CODE 0 text1 dist/default/production\car_black_box.X.production.o
+__end_of_read_digital_keypad F6E 0 CODE 0 text3 dist/default/production\car_black_box.X.production.o
+__end_of_init_clcd 3FE6 0 CODE 0 text18 dist/default/production\car_black_box.X.production.o
+__end_of_init_uart 2668 0 CODE 0 text12 dist/default/production\car_black_box.X.production.o
+get_password@i 21 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__end_of_display_time 2BB6 0 CODE 0 text27 dist/default/production\car_black_box.X.production.o
+__end_of_display_dash_board 2A42 0 CODE 0 text26 dist/default/production\car_black_box.X.production.o
+__ptext10 2750 0 CODE 0 text10 dist/default/production\car_black_box.X.production.o
+__ptext11 26DC 0 CODE 0 text11 dist/default/production\car_black_box.X.production.o
+__ptext12 25F8 0 CODE 0 text12 dist/default/production\car_black_box.X.production.o
+__ptext13 2026 0 CODE 0 text13 dist/default/production\car_black_box.X.production.o
+__ptext14 2524 0 CODE 0 text14 dist/default/production\car_black_box.X.production.o
+__ptext15 2C7C 0 CODE 0 text15 dist/default/production\car_black_box.X.production.o
+__ptext16 2064 0 CODE 0 text16 dist/default/production\car_black_box.X.production.o
+__ptext17 3F34 0 CODE 0 text17 dist/default/production\car_black_box.X.production.o
+__ptext18 3FD0 0 CODE 0 text18 dist/default/production\car_black_box.X.production.o
+__ptext19 13D8 0 CODE 0 text19 dist/default/production\car_black_box.X.production.o
+__ptext20 3F40 0 CODE 0 text20 dist/default/production\car_black_box.X.production.o
+__ptext21 14B6 0 CODE 0 text21 dist/default/production\car_black_box.X.production.o
+__ptext22 22BA 0 CODE 0 text22 dist/default/production\car_black_box.X.production.o
+__ptext23 3FBA 0 CODE 0 text23 dist/default/production\car_black_box.X.production.o
+__ptext24 23B0 0 CODE 0 text24 dist/default/production\car_black_box.X.production.o
+__ptext25 20DA 0 CODE 0 text25 dist/default/production\car_black_box.X.production.o
+__ptext26 2994 0 CODE 0 text26 dist/default/production\car_black_box.X.production.o
+__ptext27 2AF2 0 CODE 0 text27 dist/default/production\car_black_box.X.production.o
+__ptext28 2D4C 0 CODE 0 text28 dist/default/production\car_black_box.X.production.o
+__ptext29 2460 0 CODE 0 text29 dist/default/production\car_black_box.X.production.o
+__ptext30 86E 0 CODE 0 text30 dist/default/production\car_black_box.X.production.o
+__ptext31 21AC 0 CODE 0 text31 dist/default/production\car_black_box.X.production.o
+__ptext32 2BB6 0 CODE 0 text32 dist/default/production\car_black_box.X.production.o
+__ptext33 235A 0 CODE 0 text33 dist/default/production\car_black_box.X.production.o
+__ptext34 3F92 0 CODE 0 text34 dist/default/production\car_black_box.X.production.o
+__ptext35 21E8 0 CODE 0 text35 dist/default/production\car_black_box.X.production.o
+__ptext36 2270 0 CODE 0 text36 dist/default/production\car_black_box.X.production.o
+__ptext37 2668 0 CODE 0 text37 dist/default/production\car_black_box.X.production.o
+__ptext38 27CA 0 CODE 0 text38 dist/default/production\car_black_box.X.production.o
+__ptext39 1326 0 CODE 0 text39 dist/default/production\car_black_box.X.production.o
+__ptext40 1726 0 CODE 0 text40 dist/default/production\car_black_box.X.production.o
+__ptext41 F6E 0 CODE 0 text41 dist/default/production\car_black_box.X.production.o
+__ptext42 28F4 0 CODE 0 text42 dist/default/production\car_black_box.X.production.o
+__ptext43 2136 0 CODE 0 text43 dist/default/production\car_black_box.X.production.o
+__ptext44 2170 0 CODE 0 text44 dist/default/production\car_black_box.X.production.o
+__ptext45 3FA4 0 CODE 0 text45 dist/default/production\car_black_box.X.production.o
+__ptext46 3F80 0 CODE 0 text46 dist/default/production\car_black_box.X.production.o
+__ptext47 3F6E 0 CODE 0 text47 dist/default/production\car_black_box.X.production.o
+__ptext48 3FE6 0 CODE 0 text48 dist/default/production\car_black_box.X.production.o
+__ptext49 20B0 0 CODE 0 text49 dist/default/production\car_black_box.X.production.o
+__ptext50 24BE 0 CODE 0 text50 dist/default/production\car_black_box.X.production.o
+__ptext51 258C 0 CODE 0 text51 dist/default/production\car_black_box.X.production.o
+__ptext52 2856 0 CODE 0 text52 dist/default/production\car_black_box.X.production.o
+change_time@new_time 42 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+___awdiv 2D4C 0 CODE 0 text28 dist/default/production\car_black_box.X.production.o
+___awmod 1326 0 CODE 0 text39 dist/default/production\car_black_box.X.production.o
+change_password@n_p_pos 4D 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+___lldiv 2C7C 0 CODE 0 text15 dist/default/production\car_black_box.X.production.o
+___lwdiv 27CA 0 CODE 0 text38 dist/default/production\car_black_box.X.production.o
+___lwmod 2668 0 CODE 0 text37 dist/default/production\car_black_box.X.production.o
+__pmaintext 84 0 CODE 0 maintext dist/default/production\car_black_box.X.production.o
+__end_of_view_log 2000 0 CODE 0 text1 dist/default/production\car_black_box.X.production.o
+init_i2c@baud 28 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+change_password@p_chg 59 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+change_password@r_pwd AF 0 BANK1 1 bssBANK1 dist/default/production\car_black_box.X.production.o
+strncmp@l 78 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+strncmp@n 74 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+strncmp@r 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+strncpy@d 20 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+strncpy@n 75 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+strncpy@s 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__Hinittext 0 0 ABS 0 inittext -
+___wmul@multiplier 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+_log_car_event 2A42 0 CODE 0 text9 dist/default/production\car_black_box.X.production.o
+main@F1251 DA 0 BANK1 1 dataBANK1 dist/default/production\car_black_box.X.production.o
+download_log@add 2C 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__end_of_clear_log 24BE 0 CODE 0 text29 dist/default/production\car_black_box.X.production.o
+main@event E0 0 BANK1 1 cstackBANK1 dist/default/production\car_black_box.X.production.o
+___lwdiv@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+_init_clcd 3FD0 0 CODE 0 text18 dist/default/production\car_black_box.X.production.o
+_init_uart 25F8 0 CODE 0 text12 dist/default/production\car_black_box.X.production.o
+_strcmp 2406 0 CODE 0 text7 dist/default/production\car_black_box.X.production.o
+_strcpy 222A 0 CODE 0 text2 dist/default/production\car_black_box.X.production.o
+login_menu@menu_pos 53 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+main@speed E8 0 BANK1 1 cstackBANK1 dist/default/production\car_black_box.X.production.o
+_read_adc 2040 0 CODE 0 text4 dist/default/production\car_black_box.X.production.o
+init_ds1307@dummy 77 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__end_of_init_config 2750 0 CODE 0 text11 dist/default/production\car_black_box.X.production.o
+_change_password 1726 0 CODE 0 text40 dist/default/production\car_black_box.X.production.o
+_get_time 2BB6 0 CODE 0 text32 dist/default/production\car_black_box.X.production.o
+__end_of_init_ds1307 208A 0 CODE 0 text16 dist/default/production\car_black_box.X.production.o
+write_ds1307@addr 75 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+write_ds1307@data 74 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__end_of__stringtab 2024 0 STRING 0 strings dist/default/production\car_black_box.X.production.o
+__end_of_read_adc 2064 0 CODE 0 text4 dist/default/production\car_black_box.X.production.o
+_display_dash_board 2994 0 CODE 0 text26 dist/default/production\car_black_box.X.production.o
+strcpy@dest 78 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__end_of_change_time E60 0 CODE 0 text30 dist/default/production\car_black_box.X.production.o
+putchars@data 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+main@gr E3 0 BANK1 1 cstackBANK1 dist/default/production\car_black_box.X.production.o
+__pbssCOMMON 79 0 COMMON 1 bssCOMMON dist/default/production\car_black_box.X.production.o
+init_fetch0 208A 0 CODE 0 inittext dist/default/production\car_black_box.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__end_of_get_time 2C7C 0 CODE 0 text32 dist/default/production\car_black_box.X.production.o
+_clear_log 2460 0 CODE 0 text29 dist/default/production\car_black_box.X.production.o
+__Lend_init 1C 0 CODE 0 end_init -
+_download_log 14B6 0 CODE 0 text21 dist/default/production\car_black_box.X.production.o
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+end_of_initialization 7C 0 CODE 0 cinit dist/default/production\car_black_box.X.production.o
+__Hintentry 1C 0 CODE 0 intentry -
+_clock_reg 48 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+clcd_print@addr 22 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+view_log@i 3E 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 22 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+isr@count 4B 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+?___awdiv 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+?___awmod 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+i2c_write@data 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+___lwdiv@dividend 22 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+?___lldiv 20 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+?___lwdiv 20 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+?___lwmod 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+clcd_print@str 20 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+i2c_read@ack 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__Hreset_vec 6 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+main@control_flag E6 0 BANK1 1 cstackBANK1 dist/default/production\car_black_box.X.production.o
+read_digital_keypad@key 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+___awmod@dividend 75 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__ptext1 1CE0 0 CODE 0 text1 dist/default/production\car_black_box.X.production.o
+__ptext2 222A 0 CODE 0 text2 dist/default/production\car_black_box.X.production.o
+__ptext3 E60 0 CODE 0 text3 dist/default/production\car_black_box.X.production.o
+__ptext4 2040 0 CODE 0 text4 dist/default/production\car_black_box.X.production.o
+__ptext5 2E1E 0 CODE 0 text5 dist/default/production\car_black_box.X.production.o
+__ptext6 19E0 0 CODE 0 text6 dist/default/production\car_black_box.X.production.o
+__ptext7 2406 0 CODE 0 text7 dist/default/production\car_black_box.X.production.o
+__ptext8 2306 0 CODE 0 text8 dist/default/production\car_black_box.X.production.o
+__ptext9 2A42 0 CODE 0 text9 dist/default/production\car_black_box.X.production.o
+putsx@s 74 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+i2c_read@data 74 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+login@reset_flag 29 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_putchars 3FBA 0 CODE 0 text23 dist/default/production\car_black_box.X.production.o
+__pstringtext 1000 0 STRCODE 0 stringtext dist/default/production\car_black_box.X.production.o
+__H__absolute__ 0 0 ABS 0 __absolute__ -
+view_log@rlog 2B 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+view_log@rpos 3C 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+login_menu@key 2C 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+ext_eeprom_24C02_read@addr 75 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+ext_eeprom_24C02_read@data 76 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+_strncmp 28F4 0 CODE 0 text42 dist/default/production\car_black_box.X.production.o
+_strncpy F6E 0 CODE 0 text41 dist/default/production\car_black_box.X.production.o
+__end_of_read_ds1307 23B0 0 CODE 0 text33 dist/default/production\car_black_box.X.production.o
+___heap_hi 0 0 ABS 0 - C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+___heap_lo 0 0 ABS 0 - C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+__end_of_init_timer2 2040 0 CODE 0 text13 dist/default/production\car_black_box.X.production.o
+__end_of_putchars 3FD0 0 CODE 0 text23 dist/default/production\car_black_box.X.production.o
+clcd_putch@addr 27 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+clcd_putch@data 28 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+strcpy@src 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__end_of__initialization 7C 0 CODE 0 cinit dist/default/production\car_black_box.X.production.o
+main@reset_flag E7 0 BANK1 1 cstackBANK1 dist/default/production\car_black_box.X.production.o
+___awmod@divisor 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+__pidataBANK0 3F5E 0 CODE 0 idataBANK0 dist/default/production\car_black_box.X.production.o
+__pidataBANK1 2104 0 CODE 0 idataBANK1 dist/default/production\car_black_box.X.production.o
+_get_password 2306 0 CODE 0 text8 dist/default/production\car_black_box.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+__end_of_download_log 1726 0 CODE 0 text21 dist/default/production\car_black_box.X.production.o
+___lldiv@quotient 74 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+_i2c_rep_start 3F92 0 CODE 0 text34 dist/default/production\car_black_box.X.production.o
+view_log@i_385 38 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+view_log@shift 51 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+_T2CKPS0 90 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_T2CKPS1 91 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_SSPCON2 91 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+__Hend_init 22 0 CODE 0 end_init -
+init_ram0 2092 0 CODE 0 inittext dist/default/production\car_black_box.X.production.o
+_init_digital_keypad 3F34 0 CODE 0 text17 dist/default/production\car_black_box.X.production.o
+__end_of_main 86E 0 CODE 0 maintext dist/default/production\car_black_box.X.production.o
+_ACKDT 48D 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_ACKEN 48C 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+__end_of_log_car_event 2AF2 0 CODE 0 text9 dist/default/production\car_black_box.X.production.o
+_PORTB 6 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_PORTD 8 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+__end_of_login 1CE0 0 CODE 0 text6 dist/default/production\car_black_box.X.production.o
+_SPBRG 99 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_SSPEN A5 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_SSPM3 A3 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_TRISB 86 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_TRISD 88 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_TXREG 19 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+__end_of_putsx 2306 0 CODE 0 text22 dist/default/production\car_black_box.X.production.o
+?_read_adc 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+read_digital_keypad@longpressed 60 0 BANK0 1 dataBANK0 dist/default/production\car_black_box.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+interrupt_function 8 0 CODE 0 intentry dist/default/production\car_black_box.X.production.o
+_login 19E0 0 CODE 0 text6 dist/default/production\car_black_box.X.production.o
+_nDONE FA 0 ABS 0 - dist/default/production\car_black_box.X.production.o
+_putsx 22BA 0 CODE 0 text22 dist/default/production\car_black_box.X.production.o
+display_dash_board@event 2C 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production\car_black_box.X.production.o
+display_dash_board@speed 29 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__HdataBANK1 0 0 ABS 0 dataBANK1 -
+?_strncmp 73 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__initialization 22 0 CODE 0 cinit dist/default/production\car_black_box.X.production.o
+___bmul@product 74 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+__pbssBANK0 42 0 BANK0 1 bssBANK0 dist/default/production\car_black_box.X.production.o
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\car_black_box.X.production.o
+__Hstringtext 0 0 ABS 0 stringtext -
+__pstrings 2000 0 STRING 0 strings dist/default/production\car_black_box.X.production.o
+___wmul@product 77 0 COMMON 1 cstackCOMMON dist/default/production\car_black_box.X.production.o
+login_menu@select_pos 62 0 BANK0 1 dataBANK0 dist/default/production\car_black_box.X.production.o
+___int_stack_hi 0 0 STACK 2 stack C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+___int_stack_lo 0 0 STACK 2 stack C:\Users\vishn\AppData\Local\Temp\xcAsih8.\driver_tmp_12.o
+get_password@spassword 20 0 BANK0 1 cstackBANK0 dist/default/production\car_black_box.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text1 0 E70 1CE0 190 2
+text2 0 1115 222A 23 2
+text4 0 1020 2040 12 2
+text5 0 170F 2E1E F1 2
+text6 0 CF0 19E0 180 2
+text7 0 1203 2406 2D 2
+text8 0 1183 2306 2A 2
+text9 0 1521 2A42 58 2
+text10 0 13A8 2750 3D 2
+text11 0 136E 26DC 3A 2
+text12 0 12FC 25F8 38 2
+text13 0 1013 2026 D 2
+text14 0 1292 2524 34 2
+text15 0 163E 2C7C 68 2
+text16 0 1032 2064 13 2
+text17 0 1F9A 3F34 6 2
+text18 0 1FE8 3FD0 B 2
+text19 0 9EC 13D8 6F 2
+text20 0 1FA0 3F40 7 2
+text21 0 A5B 14B6 138 2
+text22 0 115D 22BA 26 2
+text23 0 1FDD 3FBA B 2
+text24 0 11D8 23B0 2B 2
+text25 0 106D 20DA 15 2
+text26 0 14CA 2994 57 2
+text27 0 1579 2AF2 62 2
+text28 0 16A6 2D4C 69 2
+text29 0 1230 2460 2F 2
+text31 0 10D6 21AC 1E 2
+text32 0 15DB 2BB6 63 2
+text33 0 11AD 235A 2B 2
+text34 0 1FC9 3F92 9 2
+text35 0 10F4 21E8 21 2
+text36 0 1138 2270 25 2
+text37 0 1334 2668 3A 2
+text38 0 13E5 27CA 46 2
+text39 0 993 1326 59 2
+text40 0 B93 1726 15D 2
+text42 0 147A 28F4 50 2
+text43 0 109B 2136 1D 2
+text44 0 10B8 2170 1E 2
+text45 0 1FD2 3FA4 B 2
+text46 0 1FC0 3F80 9 2
+text47 0 1FB7 3F6E 9 2
+text48 0 1FF3 3FE6 D 2
+text49 0 1058 20B0 15 2
+text50 0 125F 24BE 33 2
+text51 0 12C6 258C 36 2
+text52 0 142B 2856 4F 2
+cstackCOMMON 1 70 70 B 1
+cstackBANK0 1 20 20 48 1
+inittext 0 1045 208A 13 2
+intentry 0 4 8 7FB 2
+reset_vec 0 0 0 3 2
+bssBANK1 1 A0 A0 4A 1
+stringtext 0 800 1000 191 2
+idataBANK0 0 1FAF 3F5E 8 2
+idataBANK1 0 1082 2104 19 2
+strings 0 1000 2000 12 2
+clrtext 0 1FA7 3F4E 8 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
