@@ -20,6 +20,8 @@ void clcd_write(unsigned char byte, unsigned char mode)
     __delay_us(4100);
 }
 
+
+//init display controller function
 static void init_display_controller(void)
 {
     /* Startup Time for the CLCD controller */
